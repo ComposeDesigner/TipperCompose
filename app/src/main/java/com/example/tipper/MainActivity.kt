@@ -259,7 +259,7 @@ fun Tipper(
                                 .padding(horizontal = 4.dp)
                                 .offset(y = -2.dp),
                             style = MaterialTheme.typography.subtitle1,
-                            color = Color(0xFF42A5F5)
+                            color = Color(0xFF2196F3)
                         )
 
                         RoundIconButton(imageVector = Icons.Default.Add,
@@ -296,7 +296,7 @@ fun Tipper(
                 Text(
                     text = "$${total}",
                     style = MaterialTheme.typography.h1,
-                    color = Color(0xFF42A5F5)
+                    color = Color(0xFF2196F3)
                 )
             }
         }
